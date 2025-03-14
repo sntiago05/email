@@ -1,0 +1,36 @@
+.root {
+    -fx-font-family: "Segoe UI";
+}
+
+.label-fortxt {
+    -fx-text-fill: #3E2413;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+.text-field {
+    -fx-background-color: transparent;
+    -fx-border-width: 0 0 2px 0;
+    -fx-border-color: #3E2413;
+    -fx-padding: 5px 0;
+    -fx-font-size: 14px;
+    -fx-text-fill: #5a3e2b;
+}
+
+
+.text-field:focused {
+    -fx-border-color: #6c5441;
+    -fx-border-width: 0 0 2.5px 0;
+}
+
+.button {
+    -fx-border-radius: 10px 10px 10px 10px;
+    -fx-background-color: #3E2413;
+    -fx-text-fill: #FFFFFF;
+    -fx-cursor: hand;
+}
+
+.text-area{
+    -fx-border-color:#3E2413 ;
+    -fx-background-color: #bbbbbb;
+}

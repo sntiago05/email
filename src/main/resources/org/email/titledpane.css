@@ -1,0 +1,27 @@
+.root{
+    -fx-font-family: "Segoe UI";
+}
+.titled-pane {
+    -fx-text-fill: #FFFFFF;
+    -fx-focus-color: white;
+    -fx-border-width: 1px 0 1px 0;
+    -fx-border-color: #FFFFFF;
+}
+
+.titled-pane > .title {
+    -fx-background-color: #3E2413;
+    -fx-border-color: transparent;
+}
+
+.titled-pane:focused > .title {
+    -fx-background-color: #3E2413;
+}
+
+.titled-pane > .title > .arrow-button {
+    -fx-background-color: transparent;
+    -fx-focus-color: transparent;
+    -fx-border-color: transparent;
+}
+.titled-pane > .title > .arrow-button .arrow{
+    -fx-background-color: #FFFFFF;
+}
